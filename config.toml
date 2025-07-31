@@ -1,9 +1,0 @@
-baseURL = "https://SrividyaSuresh.github.io/PagesBlog/"
-languageCode = "en-us"
-title = "to echo the world"
-theme = "bear"
-publishDir = "public"
-
-[params]
-  author = "Srividya Suresh"
-  description = "Blogs and some such"
