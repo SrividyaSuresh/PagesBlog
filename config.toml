@@ -1,0 +1,9 @@
+baseURL = "https://SrividyaSuresh.github.io/"
+languageCode = "en-us"
+title = "to echo the world"
+theme = "Bear"
+publishDir = "public"
+
+[params]
+  author = "Srividya Suresh"
+  description = "Blogs and some such"
