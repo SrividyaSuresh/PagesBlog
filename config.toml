@@ -7,3 +7,35 @@ publishDir = "public"
 [params]
   author = "Srividya Suresh"
   description = "Blogs and some such"
+
+[menu]
+
+  [[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
+
+  [[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/blog/"
+  weight = 2
+
+  [[menu.main]]
+  identifier = "books"
+  name = "Books"
+  url = "/books/"
+  weight = 3
+
+  [[menu.main]]
+  identifier = "random"
+  name = "Random"
+  url = "/random/"
+  weight = 4
+
+  [[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 5
