@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Books on To Echo The World</title>
+    <link>http://localhost:1313/PagesBlog/books/</link>
+    <description>Recent content in Books on To Echo The World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/PagesBlog/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Asimov</title>
+      <link>http://localhost:1313/PagesBlog/books/asimov/</link>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/PagesBlog/books/asimov/</guid>
+      <description>&lt;p&gt;This is about &lt;strong&gt;Asimov&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PTerry</title>
+      <link>http://localhost:1313/PagesBlog/books/pterry/</link>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/PagesBlog/books/pterry/</guid>
+      <description>&lt;p&gt;This is about &lt;strong&gt;PTerry&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

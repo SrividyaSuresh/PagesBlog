@@ -1,6 +1,6 @@
 baseURL = "https://SrividyaSuresh.github.io/PagesBlog/"
 languageCode = "en-us"
-title = "to echo the world"
+title = "To Echo The World"
 theme = "bear"
 publishDir = "public"
 
@@ -33,9 +33,3 @@ publishDir = "public"
   name = "Random"
   url = "/random/"
   weight = 4
-
-  [[menu.main]]
-  identifier = "about"
-  name = "About"
-  url = "/about/"
-  weight = 5
