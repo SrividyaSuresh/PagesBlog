@@ -87,7 +87,26 @@ publishDir = "public"
   weight = 3
 ```
 
-6. Adding posts can be done in a few ways.
+6. The Home page should be added as `layouts/index.html` file with the following format
+```
+{{ define "main" }}
+  <main class="home">
+    Welcome to my blog!
+  </main>
+{{ end }}
+```
+
+The About page can be created directly as `content/About.md` file with the following format
+```
++++
+title = "About Me"
+date = "2025-07-31"
+menu = "main"
++++
+```
+You can add your content under this. 
+
+7. Adding posts can be done in a few ways.
 
 i. Via Hugo inbuilt commands. 
 ```
@@ -125,7 +144,7 @@ draft: false
 This is the content of the **first blog post**. 
 ```
 
-7. Let us add the commands for using Github Actions Workflow. 
+8. Let us add the commands for using Github Actions Workflow. 
 Create .github/workflows/deploy.yml
 ```
 name: Deploy Hugo site to GitHub Pages
@@ -159,7 +178,7 @@ jobs:
           publish_branch: gh-pages
 ```
 
-8. Commit and Push into GitHub
+9. Commit and Push into GitHub
 ```
 git add .
 git commit -m "Initial commit for GitHub Pages setup"
@@ -168,7 +187,7 @@ git branch -M main   # or master if you prefer
 git push -u origin main
 ```
 
-9. Enable GitHub Pages
+10. Enable GitHub Pages
 
 Go to your repo → Settings → Pages
 Set:
@@ -176,9 +195,9 @@ Set:
 - Folder: / (root)
 Your site will go live on https://<your-username>.github.io/<your-repo-name>/
 
-10. You can check the workflow on Actions maintab. 
+11. You can check the workflow on Actions maintab. 
 
-11. After any edits, run `hugo server` to see the changes you've made. This opens a localhost setup that updates the local blog as changes are made to your content. 
+12. After any edits, run `hugo server` on local machine to see the changes you've made. This opens a localhost setup that updates the blog view as changes are made to your content. 
 
 &nbsp;
 
@@ -196,7 +215,7 @@ content/
 
 To edit the CSS, create a copy of `themes/your-theme/layouts/partials/style.html` page into `layouts/partials/style.html`. Edit into this new folder, not the original theme folder (which would be a submodule, so your commits would move into the original author's repo). Hugo will now use your version and ignore the one inside the theme. Commit only your local layouts/... files. 
 
-2. Build run
+2. Build 
 
 When Hugo build is run either locally via `hugo server` or via GitHub Actions,
 
@@ -214,7 +233,7 @@ iii. Updates these ready-to-serve files in `public` folder.
 The final site is present under public folder. So this contains HTML, CSS, JS and images. 
 Never edit the public folder[^3], and make sure its added into your `.gitignore` file. This is overwritten everytime the site is rebuilt, locally or via GitHub Actions.
 
-4. GitHub Pages Deployment
+4. Deployment
 
 The final site present in public folder is pushed by GitHub into gh-pages branch. This is the branch name GitHub looks for, so do not change this or many any edits to this branch directly. All edits are pushed to (or merged into) the main branch. 
 
