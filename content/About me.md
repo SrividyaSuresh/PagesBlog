@@ -31,4 +31,4 @@ I'll share with you my thoughts, hopefully gaining far more clarity through self
 See you again!
 
 
-PS. If you want to connect with me anyway, you can reach me at nssvidya [at] gmail [dot] com
+PS. If you want to connect with me anyway, you can reach me at nssvidya [at] gmail [dot] com 
